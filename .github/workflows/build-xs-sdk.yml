@@ -111,6 +111,7 @@ jobs:
         echo "Kernel version：5.4" >> release.txt
         echo "${{ env.useVersionInfo }}" >> release.txt
         echo "m8802241"  >> release.txt
+        echo "5a7g0903鄭昀曜"  >> release.txt
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release
